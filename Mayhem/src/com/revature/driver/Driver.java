@@ -49,11 +49,17 @@ public class Driver {
 		
 		System.out.println("Go Knights!");
 		Human h = new Human();
+		Human h2 = new Human();
 		h.setName("Matt");
 		h.setAge(34);
 		h.setWeight(270);
 		System.out.println(h);
 		System.out.println(h.getName());
+		h2.setAge(28);
+		h2.setName("Elliott");
+		h2.setWeight(185);
+		System.out.println(h2);
+		System.out.println(h2.getName());
 		
 	}
 
