@@ -16,7 +16,14 @@ public class Human {
 	 * Instance Methods-behavior relative to a specific object
 	 * Static methods-behavior relative to entire class
 	 * constructor-instantiate the class using the keyword "new"
+	 * 
+	 * Code Blocks- Things between curly braces
 	 */
+	//Instance code block
+	{System.out.println("Im in an instance code block");}
+	
+	//Static code block
+	static {System.out.println("Im in an static code block");}
 	
 	private String name;
 	private int age;
