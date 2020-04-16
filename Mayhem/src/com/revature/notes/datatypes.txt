@@ -1,0 +1,17 @@
+In Java 
+Primitive 8
+char - 2 bytes
+boolean - supposed to be 1 bit (usually 6-7 bits) 
+byte - 8 bits
+short - 2 bytes
+int - 4 bytes
+long - 8 bytes
+float - 4 bytes
+double - 8 bytes
+
+Reference- an object; more than just a value
+
+Java is pass by value
+it passes the values of references rather than the references themselves 
+Numeric type conversion
+	look out for lost precision 
