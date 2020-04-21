@@ -68,6 +68,8 @@ public class Driver {
 		h2.setWeight(185);
 		System.out.println(h2);
 		System.out.println(h2.getName());
+		h.findPrey();
+		h2.findPrey();
 		
 	}
 
