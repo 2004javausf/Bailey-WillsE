@@ -39,6 +39,16 @@ public class CompareMain {
 		for(Student s: studentList) {
 			System.out.println(s);
 		}
+		
+		System.out.println("===============");
+		
+		System.out.println("Sorted by Name Using Lamdas");
+		Collections.sort(studentList, (arg0,arg1)
+				->{return arg0.getLabel().compareTo(arg1.getLabel());}
+				);
+		for(Student s: studentList) {
+			System.out.println(s);
+		}
 
 	}
 

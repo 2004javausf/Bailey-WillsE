@@ -46,6 +46,7 @@ public class Driver {
 	public static void main(String[] args) {
 		Date d = new Date();
 		Date e = new Date();
+		int i = 5;
 		java.sql.Date f = new java.sql.Date(0);
 		/*
 		 * public- access modifier, everything can access it
@@ -70,6 +71,8 @@ public class Driver {
 		System.out.println(h2.getName());
 		h.findPrey();
 		h2.findPrey();
+		
+		
 		
 	}
 
